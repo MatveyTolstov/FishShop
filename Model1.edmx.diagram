@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="88486fdb275c4e169dc65d7f9bae6a75" Name="Diagram1">
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.CashRegisters" Width="1.5" PointX="7.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Categories" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Customers" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Employees" Width="1.5" PointX="10" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Inventory" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.OrderDetails" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Orders" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Products" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.ProductSuppliers" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Roles" Width="1.5" PointX="7.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Suppliers" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SHOPHUNTERANDFISHMANModel.Users" Width="1.5" PointX="10" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__Products__Catego__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__Orders__Customer__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__Employees__Role___6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__Inventory__Produ__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__OrderDeta__Order__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__OrderDeta__Produ__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__ProductSu__Produ__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__ProductSu__Suppl__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="SHOPHUNTERANDFISHMANModel.FK__Users__Role_ID__4E88ABD4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

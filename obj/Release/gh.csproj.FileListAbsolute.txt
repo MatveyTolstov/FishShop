@@ -1,0 +1,4 @@
+C:\Users\HP\source\repos\gh\obj\Release\gh.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\gh\obj\Release\MainWindow.g.cs
+C:\Users\HP\source\repos\gh\obj\Release\gh_MarkupCompile.cache
+C:\Users\HP\source\repos\gh\obj\Release\gh_MarkupCompile.lref
